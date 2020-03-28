@@ -1,0 +1,15 @@
+{
+  "name": "lyon-js-2020-dojo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chessboard.js",
+  "scripts": {
+    "test": "jest --watch --notify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
