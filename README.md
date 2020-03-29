@@ -1,16 +1,16 @@
 # Dojo 2
 
-## Utilisation
+## Usage
 
-Pour installer : `npm install`.
+To install dependencies : `npm install`.
 
-Pour tester si votre travail est bon : `npm test <nom_ennoncé>`.
+To test your code : `npm test <exercise name>`.
 
-## Énoncés
+## Exercises
 
 ### Chessboard
 
-In order to represent a chessboard in a program, write a chessboard function that will return an array of arrays containing the squares coordinates 
+In order to represent a chessboard in a program, write a chessboard function that will return an array of arrays containing the squares coordinates.
 
 ![chessoard](https://www.chess-poster.com/english/learn_chess/notation/images/coordinates_2.gif)
 
@@ -37,7 +37,6 @@ Implement a funtion that takes two parameters :
 
 The function must return the keys associated with the value provided in params (you must use strict equality comparison). If no matching key is found, an empty array should be returned.
 
-### Exercice bonus
+### BONUS
 
-Solve [that](https://questionsacm.isograd.com/codecontest/pdf/237_YaHourtsCOLOre_en.pdf) :) 
-
+Solve [that](https://questionsacm.isograd.com/codecontest/pdf/237_YaHourtsCOLOre_en.pdf) ;)

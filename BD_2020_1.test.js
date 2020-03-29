@@ -15,4 +15,21 @@ describe('battleDevEx1', () => {
 
     expect(battleDevEx1(inputExemple)).toEqual('red yellow');
   });
+
+  it('works with another exemple', () => {
+    const inputExemple = [
+      9,
+      'red',
+      'red',
+      'blue',
+      'yellow',
+      'yellow',
+      'red',
+      'blue',
+      'blue',
+      'blue'
+    ];
+
+    expect(battleDevEx1(inputExemple)).toEqual('blue red');
+  });
 });
