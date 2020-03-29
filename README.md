@@ -12,22 +12,22 @@ Pour tester si votre travail est bon : `npm test <nom_ennoncé>`.
 
 In order to represent a chessboard in a program, write a chessboard function that will return an array of arrays containing the squares coordinates 
 
-![chessoard][https://www.chess-poster.com/english/learn_chess/notation/images/coordinates_2.gif]
+![chessoard](https://www.chess-poster.com/english/learn_chess/notation/images/coordinates_2.gif)
 
 (You must use `while`, `for`, `forEach` or `map`)
 
 ### Recode map
 
-Implement [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) yourself.
+Implement [Array.prototype.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) yourself using a `for` loop.
 
 ### Recode filter
 
-Implement [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) yourself.
+Implement [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) yourself using a `for` loop.
 
 
 ### Recode Object.values()
 
-Implement [Object.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values) yourself.
+Implement [Object.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values) yourself using a `for` loop.
 
 ### findKeys
 
