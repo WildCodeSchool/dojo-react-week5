@@ -1,3 +1,6 @@
+const findKeys = require('./findKeys');
+const findKey = (object, value) => findKeys(object, value)[0];
+
 const battleDevEx1 = (input) => {
   const [_, ...useFulInput] = input; // eslint-disable-line
   const colorMap = {};
@@ -11,16 +14,6 @@ const battleDevEx1 = (input) => {
   });
 
   const [mostLikedTimes, secondMostLikedTimes] = Object.values(colorMap).sort().reverse();
-
-  function findKey (object, value) {
-    for (const prop in object) {
-      if (object[prop] === value) {
-        return prop;
-      }
-    }
-    return null;
-  }
-
   return `${findKey(colorMap, mostLikedTimes)} ${findKey(colorMap, secondMostLikedTimes)}`;
 };
 
