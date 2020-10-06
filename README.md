@@ -27,7 +27,7 @@ Implement [Array.prototype.filter()](https://developer.mozilla.org/en-US/docs/We
 
 ### Recode Object.values()
 
-Implement [Object.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values) yourself using a `for` loop.
+Implement [Object.values()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Object/values) yourself, using a `for` loop and [Object.keys()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys).
 
 ### findKeys
 
