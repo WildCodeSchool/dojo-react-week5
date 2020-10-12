@@ -1,4 +1,4 @@
-# Dojo 2
+# Dojo
 
 ## Usage
 
